@@ -1,14 +1,14 @@
-import type { Metadata } from 'next';
+//import type { Metadata } from 'next';,,\\
 
-export const metadata: Metadata = {
+//export const metadata: Metadata = {
   title: 'Next.js on Replit',
-  description: 'Deploy your Next.js application to Replit'
+  description: 'Deploy your Next.js application to Replit'\\
 };
 
-export default function RootLayout({
+[export default function RootLayout({
   children
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode;]
 }>) {
   return (
     <html lang="en">
